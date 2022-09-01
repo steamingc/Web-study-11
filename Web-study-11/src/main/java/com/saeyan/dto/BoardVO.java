@@ -8,6 +8,7 @@ public class BoardVO {
 	private String email;
 	private String pass;
 	private String title;
+	private String content;
 	private int readcount;
 	private Timestamp writedate;
 	
@@ -52,5 +53,11 @@ public class BoardVO {
 	}
 	public void setWritedate(Timestamp writedate) {
 		this.writedate = writedate;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
 	}
 }
